@@ -15,6 +15,10 @@ __pycache__/
 # Data
 data/raw/*
 data/processed/*
+data/documents/*
+
+#Logs
+logs/*
 
 # Vector DB / local storage
 qdrant_storage/
