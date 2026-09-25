@@ -1,0 +1,139 @@
+[
+  {
+    "id": "qlora_01",
+    "query": "What problem does QLoRA solve compared with standard 16-bit fine-tuning of large language models?",
+    "relevant_chunks": {
+      "qlora_chunk_00000": 3,
+      "qlora_chunk_00002": 3,
+      "qlora_chunk_00003": 3,
+      "qlora_chunk_00004": 3
+    }
+  },
+  {
+    "id": "qlora_02",
+    "query": "How does QLoRA combine quantization with Low-Rank Adaptation?",
+    "relevant_chunks": {
+      "qlora_chunk_00000": 3,
+      "qlora_chunk_00003": 3,
+      "qlora_chunk_00012": 3,
+      "qlora_chunk_00023": 3
+    }
+  },
+  {
+    "id": "qlora_03",
+    "query": "What are the three main innovations introduced by QLoRA to reduce memory usage?",
+    "relevant_chunks": {
+      "qlora_chunk_00005": 3,
+      "qlora_chunk_00006": 3,
+      "qlora_chunk_00015": 3
+    }
+  },
+  {
+    "id": "qlora_04",
+    "query": "What is 4-bit NormalFloat (NF4) and why is it useful in QLoRA?",
+    "relevant_chunks": {
+      "qlora_chunk_00015": 3,
+      "qlora_chunk_00016": 3,
+      "qlora_chunk_00017": 3,
+      "qlora_chunk_00020": 3
+    }
+  },
+  {
+    "id": "qlora_05",
+    "query": "What is Double Quantization in QLoRA and how does it reduce memory usage?",
+    "relevant_chunks": {
+      "qlora_chunk_00020": 3,
+      "qlora_chunk_00021": 3,
+      "qlora_chunk_00022": 3
+    }
+  },
+  {
+    "id": "qlora_06",
+    "query": "What problem do Paged Optimizers solve during QLoRA training?",
+    "relevant_chunks": {
+      "qlora_chunk_00006": 3,
+      "qlora_chunk_00022": 3,
+      "qlora_chunk_00023": 2
+    }
+  },
+  {
+    "id": "qlora_07",
+    "query": "What are the storage and computation data types used by QLoRA?",
+    "relevant_chunks": {
+      "qlora_chunk_00015": 3,
+      "qlora_chunk_00023": 3
+    }
+  },
+  {
+    "id": "qlora_08",
+    "query": "How does QLoRA perform backpropagation when the pretrained model weights are quantized?",
+    "relevant_chunks": {
+      "qlora_chunk_00012": 3,
+      "qlora_chunk_00023": 3,
+      "qlora_chunk_00024": 3
+    }
+  },
+  {
+    "id": "qlora_09",
+    "query": "How much GPU memory does QLoRA require to fine-tune a 65B parameter model compared with regular 16-bit fine-tuning?",
+    "relevant_chunks": {
+      "qlora_chunk_00004": 3,
+      "qlora_chunk_00005": 3
+    }
+  },
+  {
+    "id": "qlora_10",
+    "query": "Does QLoRA recover the performance of 16-bit LoRA and full fine-tuning?",
+    "relevant_chunks": {
+      "qlora_chunk_00030": 3,
+      "qlora_chunk_00033": 3,
+      "qlora_chunk_00034": 3
+    }
+  },
+  {
+    "id": "qlora_11",
+    "query": "Why does applying LoRA adapters to all transformer layers matter for QLoRA performance?",
+    "relevant_chunks": {
+      "qlora_chunk_00026": 3,
+      "qlora_chunk_00027": 3
+    }
+  },
+  {
+    "id": "qlora_12",
+    "query": "How does NF4 compare with FP4 in QLoRA experiments?",
+    "relevant_chunks": {
+      "qlora_chunk_00028": 3,
+      "qlora_chunk_00029": 3,
+      "qlora_chunk_00030": 3,
+      "qlora_chunk_00033": 3
+    }
+  },
+  {
+    "id": "qlora_13",
+    "query": "Which datasets were used to evaluate QLoRA for instruction fine-tuning?",
+    "relevant_chunks": {
+      "qlora_chunk_00025": 3,
+      "qlora_chunk_00036": 3,
+      "qlora_chunk_00037": 3
+    }
+  },
+  {
+    "id": "qlora_14",
+    "query": "What did the QLoRA experiments reveal about dataset quality versus dataset size?",
+    "relevant_chunks": {
+      "qlora_chunk_00007": 3,
+      "qlora_chunk_00036": 3,
+      "qlora_chunk_00037": 3
+    }
+  },
+  {
+    "id": "qlora_15",
+    "query": "How was QLoRA evaluated on the MMLU benchmark?",
+    "relevant_chunks": {
+      "qlora_chunk_00025": 3,
+      "qlora_chunk_00030": 3,
+      "qlora_chunk_00033": 3,
+      "qlora_chunk_00034": 2
+    }
+  }
+]
