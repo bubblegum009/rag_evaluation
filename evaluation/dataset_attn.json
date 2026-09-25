@@ -1,0 +1,122 @@
+[
+  {
+    "id": "attention_01",
+    "query": "Why was the Transformer architecture introduced instead of using recurrent or convolutional neural networks?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00004": 3,
+      "attention_is_all_you_need_chunk_00005": 3,
+      "attention_is_all_you_need_chunk_00006": 3
+    }
+  },
+  {
+    "id": "attention_02",
+    "query": "What is self-attention and what does it allow the model to do?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00007": 3,
+      "attention_is_all_you_need_chunk_00008": 3
+    }
+  },
+  {
+    "id": "attention_03",
+    "query": "How is scaled dot-product attention computed?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00011": 3,
+      "attention_is_all_you_need_chunk_00012": 3
+    }
+  },
+  {
+    "id": "attention_04",
+    "query": "Why does scaled dot-product attention divide the query-key dot products by the square root of the key dimension?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00012": 3,
+      "attention_is_all_you_need_chunk_00013": 3
+    }
+  },
+  {
+    "id": "attention_05",
+    "query": "What is the difference between scaled dot-product attention and additive attention?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00012": 3
+    }
+  },
+  {
+    "id": "attention_06",
+    "query": "How does multi-head attention work in the Transformer?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00013": 3,
+      "attention_is_all_you_need_chunk_00014": 3
+    }
+  },
+  {
+    "id": "attention_07",
+    "query": "Why does the Transformer use multiple attention heads instead of a single attention head?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00014": 3,
+      "attention_is_all_you_need_chunk_00023": 2
+    }
+  },
+  {
+    "id": "attention_08",
+    "query": "How is self-attention used differently in the encoder and decoder?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00015": 3,
+      "attention_is_all_you_need_chunk_00016": 3
+    }
+  },
+  {
+    "id": "attention_09",
+    "query": "How does encoder-decoder attention work in the Transformer?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00015": 3
+    }
+  },
+  {
+    "id": "attention_10",
+    "query": "Why does the Transformer use masking in decoder self-attention?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00010": 3,
+      "attention_is_all_you_need_chunk_00016": 3
+    }
+  },
+  {
+    "id": "attention_11",
+    "query": "What are the computational advantages of self-attention compared with recurrent layers?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00018": 3,
+      "attention_is_all_you_need_chunk_00021": 3,
+      "attention_is_all_you_need_chunk_00022": 3
+    }
+  },
+  {
+    "id": "attention_12",
+    "query": "What is the computational complexity of self-attention compared with recurrent and convolutional layers?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00018": 3,
+      "attention_is_all_you_need_chunk_00021": 3,
+      "attention_is_all_you_need_chunk_00022": 3
+    }
+  },
+  {
+    "id": "attention_13",
+    "query": "Why does the Transformer need positional encodings?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00018": 2,
+      "attention_is_all_you_need_chunk_00019": 3
+    }
+  },
+  {
+    "id": "attention_14",
+    "query": "How are sinusoidal positional encodings calculated in the Transformer?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00019": 3
+    }
+  },
+  {
+    "id": "attention_15",
+    "query": "What were the main findings of the Transformer experiments on machine translation?",
+    "relevant_chunks": {
+      "attention_is_all_you_need_chunk_00026": 3,
+      "attention_is_all_you_need_chunk_00028": 3
+    }
+  }
+]

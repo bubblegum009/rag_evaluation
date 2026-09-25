@@ -1,0 +1,327 @@
+{
+    "experiment_id": "8137f81b-ed6e-4843-8c42-102ca2aede34",
+    "dataset": "evaluation\\dataset_rag.json",
+    "retrieval_strategies": [
+        "bm25"
+    ],
+    "top_k_values": [
+        7
+    ],
+    "duration_ms": 2710.900300182402,
+    "results": {
+        "bm25": {
+            "7": {
+                "metrics": {
+                    "precision": 0.2476190476190476,
+                    "recall": 0.6511111111111111,
+                    "mrr": 0.58,
+                    "ndcg": 0.5440780625802198
+                },
+                "latency": {
+                    "embedding": {
+                        "mean_ms": 0.41529332908491295,
+                        "p50_ms": 0.42639998719096184,
+                        "p95_ms": 0.5099499598145485
+                    },
+                    "retrieval": {
+                        "mean_ms": 178.97835335073373,
+                        "p50_ms": 155.33690014854074,
+                        "p95_ms": 262.5492900377136
+                    },
+                    "total": {
+                        "mean_ms": 179.6818666625768,
+                        "p50_ms": 156.0668998863548,
+                        "p95_ms": 263.3483299752694
+                    }
+                },
+                "queries": [
+                    {
+                        "query_id": "rag_01",
+                        "metrics": {
+                            "precision": 0.14285714285714285,
+                            "recall": 0.3333333333333333,
+                            "mrr": 0.25,
+                            "ndcg": 0.20210734650054762
+                        },
+                        "retrieved_chunks": [
+                            "attention_is_all_you_need_chunk_00008",
+                            "rag_chunk_00018",
+                            "rag_chunk_00040",
+                            "rag_chunk_00001",
+                            "rag_chunk_00077",
+                            "attention_is_all_you_need_chunk_00007",
+                            "lora_chunk_00002"
+                        ],
+                        "query_execution_ms": 506.76479982212186
+                    },
+                    {
+                        "query_id": "rag_02",
+                        "metrics": {
+                            "precision": 0.2857142857142857,
+                            "recall": 1.0,
+                            "mrr": 0.2,
+                            "ndcg": 0.4556051495874604
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00006",
+                            "rag_chunk_00005",
+                            "rag_chunk_00044",
+                            "rag_chunk_00010",
+                            "rag_chunk_00001",
+                            "rag_chunk_00008",
+                            "rag_chunk_00030"
+                        ],
+                        "query_execution_ms": 156.5648999530822
+                    },
+                    {
+                        "query_id": "rag_03",
+                        "metrics": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "mrr": 0.0,
+                            "ndcg": 0.0
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00011",
+                            "rag_chunk_00034",
+                            "rag_chunk_00010",
+                            "rag_chunk_00033",
+                            "rag_chunk_00024",
+                            "rag_chunk_00043",
+                            "rag_chunk_00077"
+                        ],
+                        "query_execution_ms": 155.50879994407296
+                    },
+                    {
+                        "query_id": "rag_04",
+                        "metrics": {
+                            "precision": 0.42857142857142855,
+                            "recall": 1.0,
+                            "mrr": 1.0,
+                            "ndcg": 1.0
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00001",
+                            "rag_chunk_00005",
+                            "rag_chunk_00006",
+                            "rag_chunk_00043",
+                            "rag_chunk_00030",
+                            "rag_chunk_00007",
+                            "rag_chunk_00002"
+                        ],
+                        "query_execution_ms": 159.11470004357398
+                    },
+                    {
+                        "query_id": "rag_05",
+                        "metrics": {
+                            "precision": 0.14285714285714285,
+                            "recall": 0.3333333333333333,
+                            "mrr": 0.16666666666666666,
+                            "ndcg": 0.1671604549662023
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00001",
+                            "rag_chunk_00019",
+                            "rag_chunk_00039",
+                            "rag_chunk_00027",
+                            "rag_chunk_00005",
+                            "rag_chunk_00008",
+                            "rag_chunk_00006"
+                        ],
+                        "query_execution_ms": 158.0028000753373
+                    },
+                    {
+                        "query_id": "rag_06",
+                        "metrics": {
+                            "precision": 0.2857142857142857,
+                            "recall": 0.6666666666666666,
+                            "mrr": 1.0,
+                            "ndcg": 0.7039180890341348
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00010",
+                            "rag_chunk_00015",
+                            "rag_chunk_00011",
+                            "rag_chunk_00034",
+                            "rag_chunk_00001",
+                            "rag_chunk_00077",
+                            "rag_chunk_00037"
+                        ],
+                        "query_execution_ms": 155.7275999803096
+                    },
+                    {
+                        "query_id": "rag_07",
+                        "metrics": {
+                            "precision": 0.42857142857142855,
+                            "recall": 1.0,
+                            "mrr": 1.0,
+                            "ndcg": 1.0
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00005",
+                            "rag_chunk_00006",
+                            "rag_chunk_00012",
+                            "rag_chunk_00024",
+                            "rag_chunk_00013",
+                            "rag_chunk_00038",
+                            "rag_chunk_00044"
+                        ],
+                        "query_execution_ms": 159.01990002021194
+                    },
+                    {
+                        "query_id": "rag_08",
+                        "metrics": {
+                            "precision": 0.14285714285714285,
+                            "recall": 0.5,
+                            "mrr": 0.25,
+                            "ndcg": 0.26406812257259094
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00000",
+                            "rag_chunk_00077",
+                            "rag_chunk_00001",
+                            "rag_chunk_00007",
+                            "rag_chunk_00018",
+                            "rag_chunk_00019",
+                            "rag_chunk_00017"
+                        ],
+                        "query_execution_ms": 155.08210007101297
+                    },
+                    {
+                        "query_id": "rag_09",
+                        "metrics": {
+                            "precision": 0.42857142857142855,
+                            "recall": 0.6,
+                            "mrr": 0.3333333333333333,
+                            "ndcg": 0.41383858190702183
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00077",
+                            "rag_chunk_00085",
+                            "rag_chunk_00019",
+                            "rag_chunk_00001",
+                            "rag_chunk_00020",
+                            "rag_chunk_00028",
+                            "rag_chunk_00018"
+                        ],
+                        "query_execution_ms": 156.274399952963
+                    },
+                    {
+                        "query_id": "rag_10",
+                        "metrics": {
+                            "precision": 0.2857142857142857,
+                            "recall": 1.0,
+                            "mrr": 1.0,
+                            "ndcg": 1.0
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00034",
+                            "rag_chunk_00035",
+                            "rag_chunk_00038",
+                            "rag_chunk_00024",
+                            "rag_chunk_00033",
+                            "rag_chunk_00018",
+                            "rag_chunk_00036"
+                        ],
+                        "query_execution_ms": 155.88800003752112
+                    },
+                    {
+                        "query_id": "rag_11",
+                        "metrics": {
+                            "precision": 0.2857142857142857,
+                            "recall": 1.0,
+                            "mrr": 1.0,
+                            "ndcg": 0.9134015924715543
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00037",
+                            "rag_chunk_00038",
+                            "rag_chunk_00017",
+                            "rag_chunk_00018",
+                            "rag_chunk_00026",
+                            "rag_chunk_00077",
+                            "rag_chunk_00012"
+                        ],
+                        "query_execution_ms": 158.29649986699224
+                    },
+                    {
+                        "query_id": "rag_12",
+                        "metrics": {
+                            "precision": 0.2857142857142857,
+                            "recall": 0.6666666666666666,
+                            "mrr": 1.0,
+                            "ndcg": 0.6787956981029196
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00035",
+                            "rag_chunk_00008",
+                            "rag_chunk_00037",
+                            "lora_chunk_00041",
+                            "rag_chunk_00000",
+                            "rag_chunk_00018",
+                            "rag_chunk_00020"
+                        ],
+                        "query_execution_ms": 154.94580008089542
+                    },
+                    {
+                        "query_id": "rag_13",
+                        "metrics": {
+                            "precision": 0.0,
+                            "recall": 0.0,
+                            "mrr": 0.0,
+                            "ndcg": 0.0
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00035",
+                            "rag_chunk_00001",
+                            "rag_chunk_00030",
+                            "rag_chunk_00005",
+                            "rag_chunk_00007",
+                            "rag_chunk_00085",
+                            "rag_chunk_00006"
+                        ],
+                        "query_execution_ms": 156.55279997736216
+                    },
+                    {
+                        "query_id": "rag_14",
+                        "metrics": {
+                            "precision": 0.2857142857142857,
+                            "recall": 0.6666666666666666,
+                            "mrr": 0.5,
+                            "ndcg": 0.5307212739772436
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00083",
+                            "rag_chunk_00034",
+                            "rag_chunk_00035",
+                            "rag_chunk_00086",
+                            "rag_chunk_00038",
+                            "rag_chunk_00017",
+                            "rag_chunk_00008"
+                        ],
+                        "query_execution_ms": 157.7629998791963
+                    },
+                    {
+                        "query_id": "rag_15",
+                        "metrics": {
+                            "precision": 0.2857142857142857,
+                            "recall": 1.0,
+                            "mrr": 1.0,
+                            "ndcg": 0.8315546295836226
+                        },
+                        "retrieved_chunks": [
+                            "rag_chunk_00034",
+                            "rag_chunk_00005",
+                            "rag_chunk_00001",
+                            "rag_chunk_00006",
+                            "rag_chunk_00038",
+                            "rag_chunk_00035",
+                            "rag_chunk_00012"
+                        ],
+                        "query_execution_ms": 159.92880007252097
+                    }
+                ]
+            }
+        }
+    }
+}

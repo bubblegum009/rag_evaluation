@@ -1,0 +1,143 @@
+[
+  {
+    "id": "lora_01",
+    "query": "What problem is LoRA designed to solve compared with full fine-tuning of large language models?",
+    "relevant_chunks": {
+      "lora_chunk_00000": 3,
+      "lora_chunk_00001": 3,
+      "lora_chunk_00002": 3,
+      "lora_chunk_00009": 2
+    }
+  },
+  {
+    "id": "lora_02",
+    "query": "What is the main idea behind Low-Rank Adaptation?",
+    "relevant_chunks": {
+      "lora_chunk_00004": 3,
+      "lora_chunk_00005": 3,
+      "lora_chunk_00006": 3,
+      "lora_chunk_00015": 3
+    }
+  },
+  {
+    "id": "lora_03",
+    "query": "Why can LoRA use far fewer trainable parameters than full fine-tuning?",
+    "relevant_chunks": {
+      "lora_chunk_00009": 3,
+      "lora_chunk_00010": 3,
+      "lora_chunk_00015": 3,
+      "lora_chunk_00016": 2
+    }
+  },
+  {
+    "id": "lora_04",
+    "query": "How does LoRA represent the change to a pretrained weight matrix?",
+    "relevant_chunks": {
+      "lora_chunk_00015": 3,
+      "lora_chunk_00016": 3
+    }
+  },
+  {
+    "id": "lora_05",
+    "query": "Why does LoRA freeze the pretrained weights during training?",
+    "relevant_chunks": {
+      "lora_chunk_00004": 3,
+      "lora_chunk_00005": 3,
+      "lora_chunk_00015": 3
+    }
+  },
+  {
+    "id": "lora_06",
+    "query": "How does the LoRA rank affect the number of trainable parameters?",
+    "relevant_chunks": {
+      "lora_chunk_00015": 3,
+      "lora_chunk_00028": 3,
+      "lora_chunk_00044": 3,
+      "lora_chunk_00045": 3
+    }
+  },
+  {
+    "id": "lora_07",
+    "query": "How does LoRA avoid introducing additional inference latency after training?",
+    "relevant_chunks": {
+      "lora_chunk_00006": 3,
+      "lora_chunk_00017": 3,
+      "lora_chunk_00018": 3,
+      "lora_chunk_00039": 3
+    }
+  },
+  {
+    "id": "lora_08",
+    "query": "Which Transformer weight matrices does the LoRA paper primarily adapt in its experiments, and why?",
+    "relevant_chunks": {
+      "lora_chunk_00019": 3,
+      "lora_chunk_00044": 3,
+      "lora_chunk_00045": 3
+    }
+  },
+  {
+    "id": "lora_09",
+    "query": "What are the main storage and memory benefits of LoRA compared with full fine-tuning?",
+    "relevant_chunks": {
+      "lora_chunk_00005": 3,
+      "lora_chunk_00019": 3,
+      "lora_chunk_00020": 3
+    }
+  },
+  {
+    "id": "lora_10",
+    "query": "How does LoRA compare with adapter-based approaches in terms of inference latency?",
+    "relevant_chunks": {
+      "lora_chunk_00006": 3,
+      "lora_chunk_00011": 3,
+      "lora_chunk_00012": 3,
+      "lora_chunk_00039": 3
+    }
+  },
+  {
+    "id": "lora_11",
+    "query": "How does LoRA differ from full fine-tuning in terms of which parameters are updated?",
+    "relevant_chunks": {
+      "lora_chunk_00009": 3,
+      "lora_chunk_00015": 3,
+      "lora_chunk_00016": 3
+    }
+  },
+  {
+    "id": "lora_12",
+    "query": "What evidence does the LoRA paper provide that low-rank adaptation can achieve performance comparable to full fine-tuning?",
+    "relevant_chunks": {
+      "lora_chunk_00024": 3,
+      "lora_chunk_00033": 3,
+      "lora_chunk_00034": 3
+    }
+  },
+  {
+    "id": "lora_13",
+    "query": "What tasks and datasets were used to evaluate LoRA?",
+    "relevant_chunks": {
+      "lora_chunk_00021": 3,
+      "lora_chunk_00022": 3,
+      "lora_chunk_00023": 3,
+      "lora_chunk_00033": 3
+    }
+  },
+  {
+    "id": "lora_14",
+    "query": "What did the LoRA experiments show about adapting Wq and Wv compared with adapting other attention weight matrices?",
+    "relevant_chunks": {
+      "lora_chunk_00043": 3,
+      "lora_chunk_00044": 3,
+      "lora_chunk_00045": 3
+    }
+  },
+  {
+    "id": "lora_15",
+    "query": "What does the LoRA paper conclude about the optimal rank for adaptation?",
+    "relevant_chunks": {
+      "lora_chunk_00045": 3,
+      "lora_chunk_00046": 3,
+      "lora_chunk_00047": 3
+    }
+  }
+]

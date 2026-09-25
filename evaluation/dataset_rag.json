@@ -1,0 +1,133 @@
+[
+  {
+    "id": "rag_01",
+    "query": "What is the motivation for using retrieval-augmented generation instead of relying only on a pretrained language model?",
+    "relevant_chunks": {
+      "rag_chunk_00000": 3,
+      "rag_chunk_00001": 3,
+      "rag_chunk_00002": 3
+    }
+  },
+  {
+    "id": "rag_02",
+    "query": "What are the two main components of a retrieval-augmented generation system?",
+    "relevant_chunks": {
+      "rag_chunk_00001": 3,
+      "rag_chunk_00008": 3
+    }
+  },
+  {
+    "id": "rag_03",
+    "query": "How does the retriever contribute to the generation process in RAG?",
+    "relevant_chunks": {
+      "rag_chunk_00004": 3,
+      "rag_chunk_00005": 3,
+      "rag_chunk_00006": 3
+    }
+  },
+  {
+    "id": "rag_04",
+    "query": "What is the difference between parametric and non-parametric memory in RAG?",
+    "relevant_chunks": {
+      "rag_chunk_00001": 3,
+      "rag_chunk_00005": 3,
+      "rag_chunk_00006": 2
+    }
+  },
+  {
+    "id": "rag_05",
+    "query": "How does RAG incorporate retrieved passages into the language generation process?",
+    "relevant_chunks": {
+      "rag_chunk_00008": 3,
+      "rag_chunk_00010": 3,
+      "rag_chunk_00011": 3
+    }
+  },
+  {
+    "id": "rag_06",
+    "query": "What are the differences between RAG-Sequence and RAG-Token?",
+    "relevant_chunks": {
+      "rag_chunk_00010": 3,
+      "rag_chunk_00011": 3,
+      "rag_chunk_00012": 3
+    }
+  },
+  {
+    "id": "rag_07",
+    "query": "What is the role of DPR in the RAG retrieval component?",
+    "relevant_chunks": {
+      "rag_chunk_00005": 3,
+      "rag_chunk_00006": 3,
+      "rag_chunk_00012": 2
+    }
+  },
+  {
+    "id": "rag_08",
+    "query": "How does RAG perform on knowledge-intensive NLP tasks?",
+    "relevant_chunks": {
+      "rag_chunk_00007": 3,
+      "rag_chunk_00008": 3
+    }
+  },
+  {
+    "id": "rag_09",
+    "query": "What datasets and tasks were used to evaluate RAG?",
+    "relevant_chunks": {
+      "rag_chunk_00018": 3,
+      "rag_chunk_00019": 3,
+      "rag_chunk_00020": 3,
+      "rag_chunk_00021": 3,
+      "rag_chunk_00023": 3
+    }
+  },
+  {
+    "id": "rag_10",
+    "query": "How does RAG compare with BM25 retrieval?",
+    "relevant_chunks": {
+      "rag_chunk_00034": 3,
+      "rag_chunk_00035": 3
+    }
+  },
+  {
+    "id": "rag_11",
+    "query": "What is the effect of retrieving more documents at test time?",
+    "relevant_chunks": {
+      "rag_chunk_00037": 2,
+      "rag_chunk_00038": 3
+    }
+  },
+  {
+    "id": "rag_12",
+    "query": "How can RAG update its knowledge when the underlying world changes?",
+    "relevant_chunks": {
+      "rag_chunk_00035": 3,
+      "rag_chunk_00036": 3,
+      "rag_chunk_00037": 2
+    }
+  },
+  {
+    "id": "rag_13",
+    "query": "What are the advantages of the non-parametric memory used by RAG?",
+    "relevant_chunks": {
+      "rag_chunk_00042": 3,
+      "rag_chunk_00043": 3
+    }
+  },
+  {
+    "id": "rag_14",
+    "query": "What are the main retrieval ablation experiments performed in the RAG paper?",
+    "relevant_chunks": {
+      "rag_chunk_00034": 3,
+      "rag_chunk_00035": 3,
+      "rag_chunk_00036": 3
+    }
+  },
+  {
+    "id": "rag_15",
+    "query": "What is the difference between dense retrieval and BM25 retrieval in the RAG experiments?",
+    "relevant_chunks": {
+      "rag_chunk_00034": 3,
+      "rag_chunk_00035": 3
+    }
+  }
+]
